@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.PrivacyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <!--spaceus logo-->
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:background="#F8F4EE"
+            android:src="@drawable/logo_pg" />
+
+        <!--privacy policy header-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRIVACY POLICY"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <!--privacy policy text-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol3"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol4"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--information collection and use section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/collectionUse"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol5"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol6"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--log data section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Data"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol7"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--cookies section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cookies"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol8"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol9"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--service providers section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service Providers"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol10"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol11"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol12"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol13"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol14"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol15"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--security section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol16"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--links to other sites section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Links to Other Sites"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol17"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--children's privacy section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Children's Privacy"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol18"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--changes to privacy policy section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changes2policy"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol19"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--contact us section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/privacyPol20"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generatedBy2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

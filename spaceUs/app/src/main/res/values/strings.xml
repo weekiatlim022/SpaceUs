@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">spaceUs</string>
+
+    <string name="places">Study Places</string>
+    <string name="err_msg_enter_username">Please enter username.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_phoneNum">Please enter contact number.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirmPassword">Please enter confirm password.</string>
+    <string name="err_msg_enter_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_enter_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="register_Successful">Thanks for registering!</string>
+    <string name="email_sent_success">\"Email sent successfully to reset your password! \"</string>
+    <string name="register_success">You are registered successfully.</string>
+    <string name="read_storage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
+    <string name="image_selection_failed">Image selection Failed!</string>
+    <string name="msg_profile_update_success">Your profile is updated successfully.</string>
+    <string name="clear_all">CLEAR ALL</string>
+    <string name="apply">APPLY</string>
+    <string name="bus_from_mrt">Bus from MRT</string>
+    <string name="walk_from_mrt">Walk from MRT</string>
+    <string name="transport">TRANSPORT</string>
+    <string name="plug_points">Plug Points</string>
+    <string name="restrooms">Restrooms</string>
+    <string name="wifi">WiFi</string>
+    <string name="filter_places_by">FILTER PLACES BY</string>
+    <string name="todo">TODO</string>
+
+
+    <!--<string name="title_activity_dashboard">DashboardActivity</string> -->
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_settings">Settings</string>
+    <string name="please_click_back_again_to_exit">Please click back again to exit</string>
+
+
+    <!--TERMS & CONDITIONS section-->
+    <string name="termsCond1">By downloading or using the app, these terms will automatically
+        apply to you – you should make sure therefore that you read them carefully before using the
+        app. </string>
+    <string name="termsCond2">
+        You’re not allowed to copy, or modify the app, any part of the app, or our trademarks
+        in any way. You’re not allowed to attempt to extract the source code of the app, and you
+        also should not try to translate the app into other languages, or make derivative versions.
+        The app itself, and all the trade marks, copyright, database rights and other intellectual
+    property rights related to it, still belong to Spaceus. </string>
+    <string name="termsCond3">
+        Spaceus is committed to ensuring that the app is as useful and efficient as possible.
+        For that reason, we reserve the right to make changes to the app or to charge for its
+        services, at any time and for any reason. We will never charge you for the app or its
+        services without making it very clear to you exactly what you’re paying for. </string>
+    <string name="termsCond4">
+        The Spaceus app stores and processes personal data that you have provided to us, in order to
+        provide our Service. It’s your responsibility to keep your phone and access to the app
+        secure. We therefore recommend that you do not jailbreak or root your phone, which is the
+        process of removing software restrictions and limitations imposed by the official operating
+        system of your device. It could make your phone vulnerable to malware/viruses/malicious
+        programs, compromise your phone’s security features and it could mean that the Spaceus app
+        won’t work properly or at all.</string>
+    <string name="termsCond5">
+        The app does use third party services that declare their own Terms and Conditions.</string>
+    <string name="termsCond6">
+        You should be aware that there are certain things that Spaceus will not take responsibility
+        for. Certain functions of the app will require the app to have an active internet
+        connection. The connection can be WiFi, or provided by your mobile network provider,
+        but Spaceus cannot take responsibility for the app not working at full functionality if
+        you don’t have access to WiFi, and you don’t have any of your data allowance left.</string>
+    <string name="termsCond7">
+        If you’re using the app outside of an area with WiFi, you should remember that your terms
+        of the agreement with your mobile network provider will still apply. As a result, you may be
+        charged by your mobile provider for the cost of data for the duration of the connection
+        while accessing the app, or other third party charges. In using the app, you’re accepting
+        responsibility for any such charges, including roaming data charges if you use the app
+        outside of your home territory (i.e. region or country) without turning off data roaming.
+        If you are not the bill payer for the device on which you’re using the app, please be aware
+        that we assume that you have received permission from the bill payer for using the app.</string>
+    <string name="termsCond8">
+        Along the same lines, Spaceus cannot always take responsibility for the way you use the app
+        i.e. You need to make sure that your device stays charged; if it runs out of battery and
+        you can’t turn it on to avail the Service, Spaceus cannot accept responsibility.</string>
+    <string name="termsCond9">
+        With respect to Spaceus’s responsibility for your use of the app, when you’re using the app,
+        it’s important to bear in mind that although we endeavour to ensure that it is updated and
+        correct at all times, we do rely on third parties to provide information to us so that we
+        can make it available to you. Spaceus accepts no liability for any loss, direct or indirect,
+        you experience as a result of relying wholly on this functionality of the app.</string>
+    <string name="termsCond10">
+        At some point, we may wish to update the app. The app is currently available on Android –
+        the requirements for system(and for any additional systems we decide to extend the
+        availability of the app to) may change, and you’ll need to download the updates if you want
+        to keep using the app. Spaceus does not promise that it will always update the app so that
+        it is relevant to you and/or works with the Android version that you have installed on your
+        device. However, you promise to always accept updates to the application when offered to you,
+        We may also wish to stop providing the app, and may terminate use of it at any time without
+        giving notice of termination to you. Unless we tell you otherwise, upon any termination,
+        (a) the rights and licenses granted to you in these terms will end;
+        (b) you must stop using the app, and (if needed) delete it from your device.</string>
+
+    <!--changes to terms and condition-->
+    <string name="changes2terms">Changes to This Terms and Conditions</string>
+    <string name="termsCond11">We may update our Terms and Conditions from time to time.
+        Thus, you are advised to review this page periodically for any changes. We will notify you
+        of any changes by posting the new Terms and Conditions on this page.</string>
+    <string name="termsCond12">These terms and conditions are effective as of 2021/08/05</string>
+
+    <!--contact us section-->
+    <string name="contactUs">Contact Us</string>
+    <string name="termsCond13">If you have any questions or suggestions about our Terms and
+        Conditions, do not hesitate to contact us at xtjlim001@mymail.sim.edu.sg</string>
+    <string name="generatedBy">This Terms and Conditions page was generated by App Privacy
+        Policy Generator</string>
+
+    <!--PRIVACY POLICY section-->
+    <string name="privacyPol1">Spaceus built the Spaceus app as a Free app. This SERVICE is provided
+        by Spaceus at no cost and is intended for use as is.</string>
+    <string name="privacyPol2">This page is used to inform visitors regarding our policies with the
+        collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+    </string>
+    <string name="privacyPol3">If you choose to use our Service, then you agree to the collection and
+        use of information in relation to this policy. The Personal Information that we collect is
+        used for providing and improving the Service. We will not use or share your information with
+        anyone except as described in this Privacy Policy.</string>
+    <string name="privacyPol4">The terms used in this Privacy Policy have the same meanings as in our
+        Terms and Conditions, which is accessible at Spaceus unless otherwise defined in this Privacy
+        Policy.</string>
+
+    <!--information collection and use section-->
+    <string name="collectionUse">Information Collection and Use</string>
+    <string name="privacyPol5">For a better experience, while using our Service, we may require you
+        to provide us with certain personally identifiable information, including but not limited to email.
+        The information that we request will be retained by us and used as
+        described in this privacy policy.</string>
+    <string name="privacyPol6">The app does use third party services that may collect information
+        used to identify you.</string>
+
+    <!--log data section-->
+    <string name="privacyPol7">We want to inform you that whenever you use our Service, in a case of
+        an error in the app we collect data and information (through third party products) on your
+        phone called Log Data. This Log Data may include information such as your device Internet
+        Protocol (“IP”) address, device name, operating system version, the configuration of the app
+        when utilizing our Service, the time and date of your use of the Service, and other statistics.
+    </string>
+
+    <!--cookies section-->
+    <string name="privacyPol8">Cookies are files with a small amount of data that are commonly used as
+        anonymous unique identifiers. These are sent to your browser from the websites that you visit and
+        are stored on your device\'s internal memory.</string>
+    <string name="privacyPol9">This Service does not use these “cookies” explicitly. However, the app
+        may use third party code and libraries that use “cookies” to collect information and improve
+        their services. You have the option to either accept or refuse these cookies and know when a
+        cookie is being sent to your device. If you choose to refuse our cookies, you may not be able
+        to use some portions of this Service.</string>
+
+    <!--service providers section-->
+    <string name="privacyPol10">We may employ third-party companies and individuals due to the following reasons: </string>
+    <string name="privacyPol11">* To facilitate our Service;</string>
+    <string name="privacyPol12">* To provide the Service on our behalf;</string>
+    <string name="privacyPol13">* To perform Service-related services; or</string>
+    <string name="privacyPol14">* To assist us in analyzing how our Service is used.</string>
+    <string name="privacyPol15">We want to inform users of this Service that these third parties have
+        access to your Personal Information. The reason is to perform the tasks assigned to them on
+        our behalf. However, they are obligated not to disclose or use the information for any other
+        purpose.</string>
+
+    <!--security section-->
+    <string name="privacyPol16">We value your trust in providing us your Personal Information, thus
+        we are striving to use commercially acceptable means of protecting it. But remember that no
+        method of transmission over the internet, or method of electronic storage is 100% secure and
+        reliable, and we cannot guarantee its absolute security.</string>
+
+    <!--links to other sites section-->
+    <string name="privacyPol17">We value your trust in providing us your Personal Information, thus
+    we are striving to use commercially acceptable means of protecting it. But remember that no
+    method of transmission over the internet, or method of electronic storage is 100% secure and
+    reliable, and we cannot guarantee its absolute security.</string>
+
+    <!--children's privacy section-->
+    <string name="privacyPol18">These Services do not address anyone under the age of 13. We do not
+    knowingly collect personally identifiable information from children under 13 years of age.
+    In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers. If you are a parent or guardian and you are aware
+    that your child has provided us with personal information, please contact us so that we will be
+    able to do necessary actions.</string>
+
+    <!--changes to this privacy policy section-->
+    <string name="changes2policy">Changes to This Privacy Policy</string>
+    <string name="privacyPol19">We may update our Privacy Policy from time to time. Thus, you are advised
+        to review this page periodically for any changes. We will notify you of any changes by posting
+        the new Privacy Policy on this page.
+        This policy is effective as of 2021/08/05</string>
+
+    <!--contact us section-->
+    <string name="privacyPol20">If you have any questions or suggestions about our Privacy Policy, do not hesitate
+        to contact us at xtjlim001@mymail.sim.edu.sg</string>
+    <string name="generatedBy2">This privacy policy page was created at privacypolicytemplate.net and
+    modified/generated by App Privacy Policy Generator</string>
+    <string name="err_msg_enter_locName">Please enter shop name.</string>
+    <string name="err_msg_enter_locAddress">Please enter shop address.</string>
+    <string name="err_msg_enter_hours">Please enter opening hours.</string>
+    <string name="err_msg_enter_amenities">Please enter amenities.</string>
+    <string name="err_msg_enter_transport">Please enter transport</string>
+    <string name="err_msg_enter_desc">Please enter description.</string>
+    <string name="add_success">Add location successfully. Our admin will verify the details and upload on home page.</string>
+
+</resources>

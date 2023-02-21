@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.TermsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <!--spaceus logo-->
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:background="#F8F4EE"
+            android:src="@drawable/logo_pg" />
+
+        <!--terms and conditions header-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TERMS AND CONDITIONS"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+
+        <!--terms and conditions text-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond1"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond2"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond3"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond4"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond5"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond6"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond7"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond8"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond9"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond10"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--changes to this terms and conditions-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changes2terms"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond11"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond12"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <!--contact us section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contactUs"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsCond13"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generatedBy"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

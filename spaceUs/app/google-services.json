@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241236328363",
+    "project_id": "spaceus-1ac20",
+    "storage_bucket": "spaceus-1ac20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241236328363:android:ddeb5be362e1411ae09cee",
+        "android_client_info": {
+          "package_name": "com.example.spaceus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241236328363-5jr6fkee9afea5bqb38fsob2j28aod5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spaceus",
+            "certificate_hash": "c1040d397b8f33165c041c3a5de9cdf3c5ff36da"
+          }
+        },
+        {
+          "client_id": "241236328363-c495j6lsqnm89mbn6pu0u5vhss98i3v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTaa-5xnwhAh6zpXfWjovGzgm0Lj7VqN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241236328363-c495j6lsqnm89mbn6pu0u5vhss98i3v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
